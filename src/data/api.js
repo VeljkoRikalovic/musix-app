@@ -4,7 +4,7 @@ export async function getAlbums() {
   const options = {
     method: "GET",
     headers: {
-      "x-rapidapi-key": "6fb1dda323mshf70ec6e37e1c3d9p1c8f62jsn8b5b502e4aa2",
+      "x-rapidapi-key": import.meta.env.VITE_SOME_KEY,
       "x-rapidapi-host": "spotify23.p.rapidapi.com",
     },
   };
@@ -20,7 +20,7 @@ export async function getAlbumById({ id }) {
   const options = {
     method: "GET",
     headers: {
-      "x-rapidapi-key": "6fb1dda323mshf70ec6e37e1c3d9p1c8f62jsn8b5b502e4aa2",
+      "x-rapidapi-key": import.meta.env.VITE_SOME_KEY,
       "x-rapidapi-host": "spotify23.p.rapidapi.com",
     },
   };
@@ -38,7 +38,7 @@ export async function getSongs() {
   const options = {
     method: "GET",
     headers: {
-      "x-rapidapi-key": "6fb1dda323mshf70ec6e37e1c3d9p1c8f62jsn8b5b502e4aa2",
+      "x-rapidapi-key": import.meta.env.VITE_SOME_KEY,
       "x-rapidapi-host": "spotify23.p.rapidapi.com",
     },
   };
@@ -56,7 +56,7 @@ export async function getArtists() {
   const options = {
     method: "GET",
     headers: {
-      "x-rapidapi-key": "6fb1dda323mshf70ec6e37e1c3d9p1c8f62jsn8b5b502e4aa2",
+      "x-rapidapi-key": import.meta.env.VITE_SOME_KEY,
       "x-rapidapi-host": "spotify23.p.rapidapi.com",
     },
   };
@@ -73,7 +73,7 @@ export async function getArtistById({ id }) {
   const options = {
     method: "GET",
     headers: {
-      "x-rapidapi-key": "6fb1dda323mshf70ec6e37e1c3d9p1c8f62jsn8b5b502e4aa2",
+      "x-rapidapi-key": import.meta.env.VITE_SOME_KEY,
       "x-rapidapi-host": "spotify23.p.rapidapi.com",
     },
   };
@@ -90,7 +90,7 @@ export async function getArtistAlbums({ id }) {
   const options = {
     method: "GET",
     headers: {
-      "x-rapidapi-key": "6fb1dda323mshf70ec6e37e1c3d9p1c8f62jsn8b5b502e4aa2",
+      "x-rapidapi-key": import.meta.env.VITE_SOME_KEY,
       "x-rapidapi-host": "spotify23.p.rapidapi.com",
     },
   };
@@ -107,7 +107,7 @@ export async function getSearch({ search }) {
   const options = {
     method: "GET",
     headers: {
-      "x-rapidapi-key": "6fb1dda323mshf70ec6e37e1c3d9p1c8f62jsn8b5b502e4aa2",
+      "x-rapidapi-key": import.meta.env.VITE_SOME_KEY,
       "x-rapidapi-host": "spotify23.p.rapidapi.com",
     },
   };
@@ -123,7 +123,7 @@ export async function getSongId(id) {
   const options = {
     method: "GET",
     headers: {
-      "x-rapidapi-key": "6fb1dda323mshf70ec6e37e1c3d9p1c8f62jsn8b5b502e4aa2",
+      "x-rapidapi-key": import.meta.env.VITE_SOME_KEY,
       "x-rapidapi-host": "spotify23.p.rapidapi.com",
     },
   };

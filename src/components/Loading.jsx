@@ -1,10 +1,10 @@
+import { mirage } from "ldrs";
+
 function Loading() {
+  mirage.register();
   return (
-    <div className="flex items-center justify-center p-10">
-      <div className="loading loading-bars loading-lg"></div>
-      <div className="loading loading-bars loading-lg"></div>
-      <div className="loading loading-bars loading-lg"></div>
-      <div className="loading loading-bars loading-lg"></div>
+    <div className="flex h-[80vh] items-center justify-center">
+      <l-mirage size="150" speed="2.5" color="white"></l-mirage>
     </div>
   );
 }
