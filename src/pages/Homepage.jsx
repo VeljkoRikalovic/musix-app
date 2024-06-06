@@ -28,7 +28,7 @@ function Homepage() {
   return (
     <>
       <div className="h-[100vh] animate-[slide-in-fwd-bottom_1.5s_ease-in-out] overflow-y-auto bg-secondaryOne p-0 text-center min-[1120px]:overflow-hidden">
-        <div className="hero-content mt-4 flex-col gap-[3rem]">
+        <div className="hero-content mt-4 max-w-none flex-col gap-[3rem]">
           <h1 className="text-2xl font-bold sm:text-5xl">
             Welcome to the Musix app
           </h1>
