@@ -38,7 +38,7 @@ function Homepage() {
           className="flex flex-col flex-wrap items-center justify-center gap-4   sm:flex-row md:gap-[5rem]"
           ref={text}
         >
-          <div className="group h-[15rem] w-[12rem] rounded-[25px] bg-[url('/public/albums.jpg')] bg-cover sm:h-[20rem] sm:w-[15rem] sm:*:invisible ">
+          <div className="group h-[15rem] w-[12rem] rounded-[25px] bg-[url('/albums.jpg')] bg-cover sm:h-[20rem] sm:w-[15rem] sm:*:invisible ">
             <button
               className="bg-white mt-10 cursor-pointer bg-accentOne px-4 py-2 text-3xl uppercase transition hover:shadow-[0.5rem_0.5rem_#afbdac,-0.5rem_-0.5rem_#e8ece7] active:translate-x-0.5 active:translate-y-0.5  group-hover:visible"
               onClick={() => navigate("/albums")}
@@ -46,7 +46,7 @@ function Homepage() {
               Albums
             </button>
           </div>
-          <div className="group h-[15rem] w-[12rem] rounded-[25px] bg-[url('/public/artist.jpg')] bg-cover sm:h-[20rem] sm:w-[15rem] sm:*:invisible">
+          <div className="group h-[15rem] w-[12rem] rounded-[25px] bg-[url('/artist.jpg')] bg-cover sm:h-[20rem] sm:w-[15rem] sm:*:invisible">
             <button
               className="bg-white mt-10 bg-accentOne px-4 py-2 text-3xl uppercase transition hover:shadow-[0.5rem_0.5rem_#afbdac,-0.5rem_-0.5rem_#e8ece7] active:translate-x-0.5 active:translate-y-0.5 group-hover:visible"
               onClick={() => navigate("/artists")}
@@ -54,7 +54,7 @@ function Homepage() {
               Artists
             </button>
           </div>
-          <div className="group h-[15rem] w-[12rem] rounded-[25px] bg-[url('/public/song.jpg')] bg-cover sm:h-[20rem] sm:w-[15rem] sm:*:invisible">
+          <div className="group h-[15rem] w-[12rem] rounded-[25px] bg-[url('/song.jpg')] bg-cover sm:h-[20rem] sm:w-[15rem] sm:*:invisible">
             <button
               className="bg-white mt-10 cursor-pointer bg-accentOne px-4 py-2 text-3xl uppercase transition hover:shadow-[0.5rem_0.5rem_#afbdac,-0.5rem_-0.5rem_#e8ece7] active:translate-x-0.5 active:translate-y-0.5 group-hover:visible"
               onClick={() => navigate("/songs")}
